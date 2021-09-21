@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+section{
+    height: 100vh;
+    position: relative;
+}
+.red-section{
+    background-color: red;
+}
+.green-section{
+    background-color: green;
+}
+.yellow-section{
+    background-color: yellow;
+}
+img{
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+span{
+    color: yellow;
+    font-size: 65px;
+    font-weight: bold;
+}
+.text{
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.green{
+    color: green;
+}
+.text-2{
+    position: absolute;
+    top: 77%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
