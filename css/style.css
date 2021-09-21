@@ -3,25 +3,28 @@
     padding: 0;
     box-sizing: border-box;
 }
+/* styling sections */
 section{
     height: 100vh;
     position: relative;
 }
-.red-section{
+#red-section{
     background-color: red;
 }
-.green-section{
+#green-section{
     background-color: green;
 }
-.yellow-section{
+#yellow-section{
     background-color: yellow;
 }
+/* styling image */
 img{
     position: absolute;
     top: 40%;
     left: 50%;
     transform: translate(-50%, -50%);
 }
+/* styling text */
 span{
     color: yellow;
     font-size: 65px;
@@ -41,4 +44,20 @@ span{
     top: 77%;
     left: 50%;
     transform: translate(-50%, -50%);
+}
+/* styling navbar */
+ul{
+    list-style: none;
+    position: absolute;
+    top: 30px;
+    right: 30px;
+}
+li{
+    display: inline;
+    background-color: white;
+    padding: 20px 23px;
+    border-radius: 50%;
+    text-align: center;
+    font-weight: bold;
+    margin-left: 30px;
 }
